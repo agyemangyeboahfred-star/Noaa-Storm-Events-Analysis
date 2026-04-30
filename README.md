@@ -52,30 +52,42 @@ library(forcats)
 library(scales)
 library(knitr)
 library(tidyr)
+```
 
 Install missing packages with:
 
 ```r
 install.packages(c("dplyr", "readr", "ggplot2", "stringr", "forcats", "scales", "knitr", "tidyr"))
+```
+
+---
 
 ## Output
-- Data processing pipeline
-- Visualizations (health impact, geography, seasonality, damage)
-- Fully reproducible R Markdown report
+- Data processing pipeline  
+- Visualizations (health impact, geography, seasonality, damage)  
+- Fully reproducible R Markdown report  
+
+---
 
 ## Live Report
-[View RPubs Report](http://rpubs.com/Agyemanf/1427503)
+👉 [View RPubs Report](http://rpubs.com/Agyemanf/1427503)
+
+---
 
 ## Files
-- `NOAA_Storm_Events_Final_Project.Rmd` — full report
-- `NOAA_Storm_Events_Final_Project.R` — script version
-- CSV outputs — summarized analysis tables
+- `NOAA_Storm_Events_Final_Project.Rmd` — full report  
+- `NOAA_Storm_Events_Final_Project.R` — script version  
+- CSV outputs — summarized analysis tables  
+
+---
 
 ## How to Run
-1. Download the repository
-2. Place NOAA CSV files in the same folder
-3. Open the `.Rmd` file in RStudio
-4. Click **Knit**
+1. Download the repository  
+2. Place NOAA CSV files in the same folder  
+3. Open the `.Rmd` file in RStudio  
+4. Click **Knit**  
+
+---
 
 ## Author
 Fred Yeboah Agyemang  
