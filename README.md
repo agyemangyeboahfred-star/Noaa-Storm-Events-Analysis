@@ -39,6 +39,10 @@ The analysis focuses on:
 
 ---
 
+
+---
+
+```markdown
 ## Required R Packages
 
 The project uses the following R packages:
@@ -52,6 +56,9 @@ library(forcats)
 library(scales)
 library(knitr)
 library(tidyr)
+
+Install missing packages with:
+install.packages(c("dplyr", "readr", "ggplot2", "stringr", "forcats", "scales", "knitr", "tidyr"))
 
 ## Output
 - Data processing pipeline
